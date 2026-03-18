@@ -23,7 +23,7 @@
 ║   46 battle-tested skills + 6 command workflows                    ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
-║   v0.75 • Mar 17, 2026 • CC BY-NC-SA 4.0                            ║
+║   v0.75 • Mar 17, 2026 • CC BY-NC-SA 4.0                           ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -53,7 +53,7 @@ What changed in v0.75:
 
 Release note: [`docs/announcements/2026-03-17-v0-75-pedagogic-first.md`](docs/announcements/2026-03-17-v0-75-pedagogic-first.md)
 
-**Coming in the next update:** Install skills directly from Claude Code via the plugin marketplace:
+**Now available:** Install skills directly from Claude Code via the plugin marketplace:
 ```bash
 /plugin marketplace add deanpeters/Product-Manager-Skills
 /plugin install jobs-to-be-done@pm-skills
@@ -186,7 +186,7 @@ Announcement draft: [`docs/announcements/2026-02-10-v0-4-facilitation-fix.md`](d
 
 ### Feb 8, 2026 — LinkedIn Launch
 
-**Post title:** Product Management Skills for Your Agents  
+**Post title:** Product Management Skills for Your Agents
 **Subtitle:** Because "just prompt better" is not a strategy.
 
 Still rewriting PM prompts and getting generic AI output? I built a reusable PM Skills repo to help you make sharper decisions, docs, and outcomes faster.
