@@ -27,7 +27,7 @@ const PLATFORM_GROUPS = [
           { title: "Codex invocation", type: "code", code: `"Using skills/user-story/SKILL.md, write user stories\n for the feature in docs/checkout-epic.md"\n\n"Apply skills/prd-development/SKILL.md to this\n problem brief: [paste brief]"\n\n"Run skills/prioritization-advisor/SKILL.md and help\n me rank: [paste backlog items]"` },
           { title: "Option 2 — Custom GPT Knowledge upload", type: "steps", steps: ["Go to ChatGPT → My GPTs → Create a GPT","Under Knowledge, upload the SKILL.md files you want","Or upload a skill ZIP (ChatGPT extracts it automatically)","In GPT instructions, reference skills by name","Save and share with your team"] },
           { title: "Option 3 — ChatGPT Projects", type: "steps", steps: ["Create a new Project in ChatGPT","Upload SKILL.md files to the project's Files section","All conversations in that project have skills loaded","Best for team projects using the same PM frameworks"] },
-          { title: "Pro tip", type: "tip", content: "Don't upload all 46 skills to one Custom GPT. Build focused GPTs: a 'Discovery GPT' with discovery-process + pol-probe + opportunity-solution-tree, and a 'Roadmap GPT' with prioritization-advisor + roadmap-planning." },
+          { title: "Pro tip", type: "tip", content: "Don't upload all 47 skills to one Custom GPT. Build focused GPTs: a 'Discovery GPT' with discovery-process + pol-probe + opportunity-solution-tree, and a 'Roadmap GPT' with prioritization-advisor + roadmap-planning." },
         ],
       },
       {
@@ -406,7 +406,7 @@ export default function App() {
       {view === "overview" && (
         <div style={{ padding:"28px 24px", maxWidth:"860px", margin:"0 auto", width:"100%" }}>
           <div style={{ fontSize:"20px", fontWeight:"700", marginBottom:"6px", letterSpacing:"-0.02em" }}>Three Skill Types. One Architecture.</div>
-          <p style={{ color:"#6B6B75", fontSize:"13px", marginBottom:"28px" }}>46 skills in three tiers that build on each other. Start with components; escalate to workflows.</p>
+          <p style={{ color:"#6B6B75", fontSize:"13px", marginBottom:"28px" }}>47 skills in three tiers that build on each other. Start with components; escalate to workflows.</p>
           <div style={{ background:"#111113", border:"1px solid #2A2A2E", borderRadius:"8px", padding:"20px", marginBottom:"28px" }}>
             {SKILL_TYPES.map((tier, i) => (
               <div key={i}>

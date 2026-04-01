@@ -1,7 +1,7 @@
 # Using PM Skills 101
 
 **Repository:** [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills)
-**Skills available:** 46 | **Version:** 0.65 | **Works with:** Claude, Codex, ChatGPT, Cowork, n8n, LangFlow, Lovable, OpenClaw, Cursor, Windsurf, Bolt, Replit, Make.com, Devin, CrewAI, Gemini
+**Skills available:** 47 | **Version:** 0.65 | **Works with:** Claude, Codex, ChatGPT, Cowork, n8n, LangFlow, Lovable, OpenClaw, Cursor, Windsurf, Bolt, Replit, Make.com, Devin, CrewAI, Gemini
 
 ---
 
@@ -32,7 +32,7 @@ Instead of saying *"Write a PRD"* and hoping for the best, the agent already kno
 
 Skills are organized into three tiers that build on each other.
 
-### 🧱 Component Skills (20) — Templates & Artifacts
+### 🧱 Component Skills (21) — Templates & Artifacts
 **When to use:** You need a standard template for a specific deliverable.
 **Time:** 10–30 minutes
 **Example:** "Write a user story" → `user-story` skill
@@ -228,7 +228,7 @@ Always produce: role, action, value, and Gherkin acceptance criteria for each st
 3. All conversations in that project have the skills loaded
 4. Best for team projects where everyone uses the same PM frameworks
 
-> **Pro tip:** Don't upload all 46 skills to one Custom GPT. Build focused GPTs: a "Discovery GPT" with `discovery-process` + `pol-probe` + `opportunity-solution-tree`, and a "Roadmap GPT" with `prioritization-advisor` + `roadmap-planning`.
+> **Pro tip:** Don't upload all 47 skills to one Custom GPT. Build focused GPTs: a "Discovery GPT" with `discovery-process` + `pol-probe` + `opportunity-solution-tree`, and a "Roadmap GPT" with `prioritization-advisor` + `roadmap-planning`.
 
 ---
 

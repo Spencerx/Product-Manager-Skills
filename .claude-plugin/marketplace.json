@@ -5,7 +5,7 @@
     "email": "dean.peters@productside.com"
   },
   "metadata": {
-    "description": "46 battle-tested product management skills for Claude Code — discovery, strategy, finance, career, and more.",
+    "description": "47 battle-tested product management skills for Claude Code — discovery, strategy, finance, career, and more.",
     "version": "0.75.0"
   },
   "plugins": [
@@ -511,6 +511,20 @@
         "onboarding",
         "vp",
         "cpo"
+      ],
+      "strict": false
+    },
+    {
+      "name": "product-sense-interview-answer",
+      "source": "./skills/product-sense-interview-answer",
+      "description": "Structure a spoken product-sense interview answer with segmentation and MVP tradeoffs.",
+      "category": "career",
+      "tags": [
+        "pm",
+        "career",
+        "interview",
+        "product-sense",
+        "product-design"
       ],
       "strict": false
     },
