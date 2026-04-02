@@ -6,7 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/CONTRIBUTING.md)
 [![Version](https://img.shields.io/badge/version-v0.75-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces)
-![Skills](https://img.shields.io/badge/skills-46-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-47-informational?style=flat-square)
 ![Commands](https://img.shields.io/badge/commands-6-informational?style=flat-square)
 ![Streamlit Beta](https://img.shields.io/badge/streamlit-beta-orange?style=flat-square)
 
@@ -20,7 +20,7 @@
 ║   ██║     ██║ ╚═╝ ██║    ███████║██║  ██╗██║███████╗███████╗███████║
 ║   ╚═╝     ╚═╝     ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ║                                                                    ║
-║   46 battle-tested skills + 6 command workflows                    ║
+║   47 battle-tested skills + 6 command workflows                    ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
 ║   v0.75 • Mar 17, 2026 • CC BY-NC-SA 4.0                           ║
@@ -201,7 +201,7 @@ Still rewriting PM prompts and getting generic AI output? I built a reusable PM 
 
 ## 🎯 What This Is
 
-**46 ready-to-use PM skills + reusable command workflows** that teach both you and your AI agents how to do product management work at a professional level — so the PM understands the *why* and the agent can execute the *how*.
+**47 ready-to-use PM skills + reusable command workflows** that teach both you and your AI agents how to do product management work at a professional level — so the PM understands the *why* and the agent can execute the *how*.
 
 Instead of saying *"Write a PRD"* and hoping for the best, you and your agent both know:
 - ✅ How to structure a PRD and why each section earns its place
@@ -397,7 +397,7 @@ pbpaste | ./scripts/add-a-skill.sh
 
 ## 🏗️ Three-Tier Architecture (How Skills Work Together)
 
-These 46 skills are organized into **three types** that build on each other:
+These 47 skills are organized into **three types** that build on each other:
 
 ```text
 ┌───────────────────────────────────────────────────────────┐
@@ -415,14 +415,14 @@ These 46 skills are organized into **three types** that build on each other:
 └───────────────────────────────────────────────────────────┘
                          ↓ uses
 ┌───────────────────────────────────────────────────────────┐
-│  COMPONENT SKILLS (20)                                    │
+│  COMPONENT SKILLS (21)                                    │
 │  Templates for specific PM deliverables                   │
 │  Example: "Write a user story"                            │
 │  Timeline: 10-30 minutes                                  │
 └───────────────────────────────────────────────────────────┘
 ```
 
-### Component Skills (20) — Templates & Artifacts
+### Component Skills (21) — Templates & Artifacts
 **What:** Reusable templates for creating specific PM deliverables (user stories, positioning statements, epics, personas, PRDs, etc.)
 
 **When to use:** You need a standard template or format for a specific deliverable.
@@ -456,11 +456,11 @@ These 46 skills are organized into **three types** that build on each other:
 
 ---
 
-## 📦 All 46 Skills (Clickable)
+## 📦 All 47 Skills (Clickable)
 
 Now that you understand the three types, here's the complete catalog:
 
-### 🧱 Component Skills (20)
+### 🧱 Component Skills (21)
 
 | Skill | Use When You Need To... |
 |-------|-------------------------|
@@ -476,6 +476,7 @@ Now that you understand the three types, here's the complete catalog:
 | **[positioning-statement](skills/positioning-statement/SKILL.md)** | Define who you serve, what problem you solve, and how you're different (Geoffrey Moore framework) |
 | **[press-release](skills/press-release/SKILL.md)** | Write a future press release to clarify product vision (Amazon Working Backwards) |
 | **[problem-statement](skills/problem-statement/SKILL.md)** | Frame a customer problem with evidence before jumping to solutions |
+| **[product-sense-interview-answer](skills/product-sense-interview-answer/SKILL.md)** | Structure a spoken product-sense answer with assumptions, segmentation, pain-point prioritization, and MVP tradeoffs |
 | **[proto-persona](skills/proto-persona/SKILL.md)** | Create hypothesis-driven personas before doing full research |
 | **[recommendation-canvas](skills/recommendation-canvas/SKILL.md)** | Document AI-powered product recommendations |
 | **[saas-economics-efficiency-metrics](skills/saas-economics-efficiency-metrics/SKILL.md)** | Evaluate unit economics and capital efficiency (CAC, LTV, payback, margins, burn rate, Rule of 40, magic number) |

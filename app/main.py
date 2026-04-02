@@ -840,7 +840,7 @@ def render_sidebar(skill: dict | None = None):
             "[Feedback via GitHub ↗](https://github.com/deanpeters/Product-Manager-Skills/issues) · "
             "[Connect on LinkedIn ↗](https://linkedin.com/in/deanpeters)"
         )
-        st.caption("46 PM skills · CC BY-NC-SA 4.0")
+        st.caption("47 PM skills · CC BY-NC-SA 4.0")
         st.caption("[GitHub ↗](https://github.com/deanpeters/product-manager-skills)")
 
 

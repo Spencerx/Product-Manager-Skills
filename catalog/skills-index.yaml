@@ -1,5 +1,5 @@
 generated_from: skills/*/SKILL.md
-count: 46
+count: 47
 skills:
 - name: acquisition-channel-advisor
   description: Evaluate acquisition channels using unit economics, customer quality,
@@ -343,6 +343,17 @@ skills:
     them, why, and how it makes them feel. Use this to align stakeholders on the problem
     before jumping to solutions, and to frame product work around user outcomes rather
     than feature requests.
+- name: product-sense-interview-answer
+  description: Structure a spoken PM product-sense answer with assumptions, segmentation,
+    pain-point prioritization, and MVP tradeoffs. Use when practicing design, improve,
+    or build-next interview questions.
+  type: component
+  path: skills/product-sense-interview-answer/SKILL.md
+  intent: 'Coach PM candidates through open-ended product-sense interviews using a
+    repeatable six-part answer spine: clarify, rationale, goal, segmentation, pain
+    points, and solution choice. Use this to practice product design and product improvement
+    questions, avoid solution-first answers, and produce responses that sound thoughtful
+    out loud rather than over-scripted on the page.'
 - name: product-strategy-session
   description: Run an end-to-end product strategy session across positioning, discovery,
     and roadmap planning. Use when a team needs validated direction before committing
