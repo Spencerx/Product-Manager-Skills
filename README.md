@@ -41,16 +41,16 @@ Choose your setup:
 
 | I use... | Download/use this | Best for |
 |---|---|---|
-| Claude Desktop / Claude Web | [`01-core-pm-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/01-core-pm-starter-pack.zip) | Nontechnical PMs |
+| Claude Desktop / Claude Web | [`pm-skills-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-starter-pack.zip) | Nontechnical PMs |
 | Claude Code | Plugin marketplace | Terminal users |
-| Codex | [`codex-product-manager-skills.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/codex-product-manager-skills.zip) or repo clone | Codex CLI/app users |
-| I am not sure | [`01-core-pm-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/01-core-pm-starter-pack.zip) | Most people |
+| Codex | [`pm-skills-codex.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-codex.zip) or repo clone | Codex CLI/app users |
+| I am not sure | [`pm-skills-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-starter-pack.zip) | Most people |
 
 ### Fastest Path
 
 Download the starter pack here:
 
-**[`01-core-pm-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/01-core-pm-starter-pack.zip)**
+**[`pm-skills-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-starter-pack.zip)**
 
 Upload it to Claude Skills.
 
@@ -68,13 +68,13 @@ All downloadable ZIPs live on the GitHub Releases page:
 
 Common downloads:
 
-- Claude starter pack: [`01-core-pm-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/01-core-pm-starter-pack.zip)
+- Claude starter pack: [`pm-skills-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-starter-pack.zip)
 - Claude discovery pack: [`02-discovery-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/02-discovery-pack.zip)
 - Claude strategy pack: [`03-strategy-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/03-strategy-pack.zip)
 - Claude delivery pack: [`04-delivery-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/04-delivery-pack.zip)
 - Claude AI PM pack: [`05-ai-pm-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/05-ai-pm-pack.zip)
 - Claude all-skills pack: [`99-all-skills-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/99-all-skills-pack.zip)
-- Codex package: [`codex-product-manager-skills.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/codex-product-manager-skills.zip)
+- Codex package: [`pm-skills-codex.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-codex.zip)
 
 ### Install Guides
 

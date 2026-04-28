@@ -35,7 +35,7 @@ jobs:
           path: |
             dist/Product-Manager-Skills-*-release.zip
             dist/claude-desktop/*.zip
-            dist/codex/codex-product-manager-skills.zip
+            dist/codex/*.zip
           if-no-files-found: error
 
       - name: Publish GitHub Release
@@ -45,6 +45,6 @@ jobs:
           files: |
             dist/Product-Manager-Skills-*-release.zip
             dist/claude-desktop/*.zip
-            dist/codex/codex-product-manager-skills.zip
+            dist/codex/*.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

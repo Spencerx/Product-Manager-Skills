@@ -5,7 +5,7 @@ Codex can use these skills from a project-local `.agents/skills` folder, or dire
 ## Quick Setup with the Codex ZIP
 
 1. Open the [Product Manager Skills Releases page](https://github.com/deanpeters/Product-Manager-Skills/releases/latest).
-2. Download [`codex-product-manager-skills.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/codex-product-manager-skills.zip).
+2. Download [`pm-skills-codex.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-codex.zip).
 3. Unzip it into your project or repo root.
 4. Confirm your project now has:
 

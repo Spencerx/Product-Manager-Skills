@@ -5,7 +5,7 @@ Claude Desktop and Claude Web are the easiest path for nontechnical PMs: downloa
 ## Quick Setup
 
 1. Open the [Product Manager Skills Releases page](https://github.com/deanpeters/Product-Manager-Skills/releases/latest).
-2. Download [`01-core-pm-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/01-core-pm-starter-pack.zip), or choose a different pack from the table below.
+2. Download [`pm-skills-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-starter-pack.zip), or choose a different pack from the table below.
 3. Open Claude.
 4. Go to `Settings -> Capabilities -> Skills`.
 5. Upload the ZIP.
@@ -21,7 +21,7 @@ Use the Product Manager Skills to help me frame this product problem.
 
 | Pack | Best for | Use when |
 |---|---|---|
-| [`01-core-pm-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/01-core-pm-starter-pack.zip) | Most PMs | You want a small, practical starter set. |
+| [`pm-skills-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-starter-pack.zip) | Most PMs | You want a small, practical starter set. |
 | [`02-discovery-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/02-discovery-pack.zip) | Discovery work | You need to understand customers, problems, jobs, or opportunities. |
 | [`03-strategy-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/03-strategy-pack.zip) | Strategy work | You need positioning, market thinking, or product direction. |
 | [`04-delivery-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/04-delivery-pack.zip) | Delivery work | You need stories, epics, PRDs, or roadmap execution. |

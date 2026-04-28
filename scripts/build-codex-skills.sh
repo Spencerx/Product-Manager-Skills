@@ -48,6 +48,8 @@ find "$OUT_DIR" -name .DS_Store -type f -delete
 
 rm -f "$ZIP_PATH"
 (cd "$OUT_DIR" && zip -qr "$ZIP_PATH" .agents AGENTS.md)
+cp "$ZIP_PATH" "$OUT_DIR/pm-skills-codex.zip"
 
 echo "Copied $count skills to: ${OUT_SKILLS#$ROOT/}"
 echo "Created: ${ZIP_PATH#$ROOT/}"
+echo "Created alias: ${OUT_DIR#$ROOT/}/pm-skills-codex.zip"

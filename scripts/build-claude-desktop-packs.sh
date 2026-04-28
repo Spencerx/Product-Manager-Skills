@@ -91,6 +91,8 @@ main() {
     product-strategy-session \
     roadmap-planning \
     discovery-process
+  cp "$OUT_DIR/01-core-pm-starter-pack.zip" "$OUT_DIR/pm-skills-starter-pack.zip"
+  echo "Created alias: ${OUT_DIR#$ROOT/}/pm-skills-starter-pack.zip"
 
   pack_skills "$packaged_root" "02-discovery-pack.zip" \
     discovery-process \

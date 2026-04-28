@@ -58,4 +58,4 @@ echo
 echo "Release artifacts:"
 echo "  $artifact"
 echo "  $DIST_DIR/claude-desktop/*.zip"
-echo "  $DIST_DIR/codex/codex-product-manager-skills.zip"
+echo "  $DIST_DIR/codex/*.zip"
