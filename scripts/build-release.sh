@@ -36,6 +36,7 @@ rm -rf "$RELEASE_DIR"
 mkdir -p "$RELEASE_DIR/docs"
 
 cp -R "$DIST_DIR/claude-desktop" "$RELEASE_DIR/"
+cp -R "$DIST_DIR/skill-zips" "$RELEASE_DIR/"
 cp -R "$DIST_DIR/codex" "$RELEASE_DIR/"
 cp "$ROOT/README.md" "$RELEASE_DIR/README.md"
 
@@ -52,10 +53,11 @@ done
 
 artifact="$DIST_DIR/Product-Manager-Skills-$version-release.zip"
 rm -f "$artifact"
-(cd "$RELEASE_DIR" && zip -qr "$artifact" claude-desktop codex docs README.md)
+(cd "$RELEASE_DIR" && zip -qr "$artifact" claude-desktop skill-zips codex docs README.md)
 
 echo
 echo "Release artifacts:"
 echo "  $artifact"
 echo "  $DIST_DIR/claude-desktop/*.zip"
+echo "  $DIST_DIR/skill-zips/*.zip"
 echo "  $DIST_DIR/codex/*.zip"

@@ -5,7 +5,7 @@ This repo keeps `skills/` as the canonical source of truth and builds downloadab
 The release experience should feel simple:
 
 ```text
-Download one pack. Upload or unzip one file. Start asking better product questions.
+Download one pack. Unzip it. Upload the skill ZIPs inside. Start asking better product questions.
 ```
 
 ## Maintainer Flow
@@ -26,11 +26,15 @@ Pushing a version tag that starts with `v` triggers GitHub Actions to build arti
 dist/
   claude-desktop/
     01-core-pm-starter-pack.zip
+    pm-skills-starter-pack.zip
     02-discovery-pack.zip
     03-strategy-pack.zip
     04-delivery-pack.zip
     05-ai-pm-pack.zip
     99-all-skills-pack.zip
+
+  skill-zips/
+    <skill-name>.zip
 
   codex/
     .agents/
@@ -42,6 +46,7 @@ dist/
 
   release/
     claude-desktop/
+    skill-zips/
     codex/
     docs/
     README.md
@@ -63,6 +68,8 @@ Build Claude Desktop/Web packs:
 ./scripts/build-claude-desktop-packs.sh
 ```
 
+This also regenerates `dist/skill-zips/` because Claude packs are bundles of individual upload-ready skill ZIPs.
+
 Build Codex package:
 
 ```bash
@@ -79,6 +86,8 @@ Build everything:
 
 - Do not edit files under `dist/` directly.
 - Do not commit generated ZIP files unless the repo intentionally changes that policy.
+- Claude Desktop/Web packs are ZIPs of individual upload-ready skill ZIPs. Users unzip the pack first, then upload the skill ZIPs inside to Claude.
+- Codex packages are expanded `.agents/skills` folders inside a ZIP, not ZIPs of ZIPs.
 - Do not remove `.claude-plugin/marketplace.json`; Claude Code users rely on the marketplace path.
 - Keep `skills/` stable and canonical.
 - Prefer small Bash scripts and common Unix tools over a heavier build system.

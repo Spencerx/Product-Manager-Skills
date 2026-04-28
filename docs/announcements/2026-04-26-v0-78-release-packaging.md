@@ -10,7 +10,7 @@ v0.78 turns Product Manager Skills from a useful repo into something people can 
 
 We added release packaging for the main ways people use AI tools today:
 
-- Claude Desktop/Web users can download ready-to-upload ZIP packs.
+- Claude Desktop/Web users can download easy-button ZIP packs that contain individual upload-ready skill ZIPs.
 - Claude Code users can keep using the existing plugin marketplace path.
 - Codex users can download a package with `.agents/skills` and `AGENTS.md`.
 - Maintainers can build all release artifacts with one command.
@@ -38,7 +38,7 @@ This release removes setup guesswork. It makes the first step smaller.
 
 ### Nontechnical PMs using Claude Desktop or Claude Web
 
-They can download `01-core-pm-starter-pack.zip`, upload it to Claude Skills, and start with a real product problem.
+They can download `pm-skills-starter-pack.zip`, unzip it, upload the skill ZIPs inside to Claude Skills, and start with a real product problem.
 
 ### Claude Code users
 
@@ -67,7 +67,7 @@ Before v0.78, someone had to understand the repo structure before they could use
 After v0.78:
 
 - A PM can choose a starter pack instead of cloning a repo.
-- A Claude user can upload one ZIP instead of packaging skills by hand.
+- A Claude user can download one pack, unzip it, and upload the skill ZIPs inside instead of packaging skills by hand.
 - A Codex user can unzip one file instead of recreating `.agents/skills`.
 - A maintainer can publish releases repeatably instead of assembling artifacts manually.
 - The README tells people which path to use instead of making them infer it.
@@ -75,7 +75,7 @@ After v0.78:
 The release experience should now feel like:
 
 ```text
-Download one pack. Upload or unzip one file. Start asking better product questions.
+Download one pack. Unzip it. Upload the skill ZIPs inside. Start asking better product questions.
 ```
 
 ---

@@ -52,7 +52,9 @@ Download the starter pack here:
 
 **[`pm-skills-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-starter-pack.zip)**
 
-Upload it to Claude Skills.
+Unzip it. Inside, you will see individual skill ZIPs.
+
+Upload those individual ZIPs to Claude Skills.
 
 Ask:
 
@@ -68,12 +70,12 @@ All downloadable ZIPs live on the GitHub Releases page:
 
 Common downloads:
 
-- Claude starter pack: [`pm-skills-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-starter-pack.zip)
-- Claude discovery pack: [`02-discovery-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/02-discovery-pack.zip)
-- Claude strategy pack: [`03-strategy-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/03-strategy-pack.zip)
-- Claude delivery pack: [`04-delivery-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/04-delivery-pack.zip)
-- Claude AI PM pack: [`05-ai-pm-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/05-ai-pm-pack.zip)
-- Claude all-skills pack: [`99-all-skills-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/99-all-skills-pack.zip)
+- Claude starter pack: [`pm-skills-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-starter-pack.zip) - unzip this, then upload the skill ZIPs inside to Claude
+- Claude discovery pack: [`02-discovery-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/02-discovery-pack.zip) - unzip this, then upload the skill ZIPs inside to Claude
+- Claude strategy pack: [`03-strategy-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/03-strategy-pack.zip) - unzip this, then upload the skill ZIPs inside to Claude
+- Claude delivery pack: [`04-delivery-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/04-delivery-pack.zip) - unzip this, then upload the skill ZIPs inside to Claude
+- Claude AI PM pack: [`05-ai-pm-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/05-ai-pm-pack.zip) - unzip this, then upload the skill ZIPs inside to Claude
+- Claude all-skills pack: [`99-all-skills-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/99-all-skills-pack.zip) - unzip this, then upload the skill ZIPs inside to Claude
 - Codex package: [`pm-skills-codex.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-codex.zip)
 
 ### Install Guides
@@ -94,7 +96,7 @@ This release makes Product Manager Skills easier to use outside the repo. The jo
 **Who this is for:** nontechnical PMs using Claude Desktop/Web, Claude Code users who prefer the plugin marketplace, Codex users who need `.agents/skills`, and maintainers who want releases to be repeatable instead of handmade.
 
 **What changed in v0.78:**
-- Claude Desktop/Web users get ready-to-upload ZIP skill packs, including a small starter pack and themed packs for discovery, strategy, delivery, and AI PM work
+- Claude Desktop/Web users get easy-button ZIP packs that contain individual upload-ready skill ZIPs, including a small starter pack and themed packs for discovery, strategy, delivery, and AI PM work
 - Codex users get a `codex-product-manager-skills.zip` with `.agents/skills` and `AGENTS.md`
 - Maintainers get one release command: `./scripts/build-release.sh`
 - GitHub Actions now builds release artifacts on PRs, main, and version tags

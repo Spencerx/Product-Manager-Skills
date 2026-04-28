@@ -1,15 +1,16 @@
 # Install PM Skills in Claude Desktop or Claude Web
 
-Claude Desktop and Claude Web are the easiest path for nontechnical PMs: download one ZIP, upload it to Claude, and start working.
+Claude Desktop and Claude Web are the easiest path for nontechnical PMs: download one pack, unzip it, upload the skill ZIPs inside, and start working.
 
 ## Quick Setup
 
 1. Open the [Product Manager Skills Releases page](https://github.com/deanpeters/Product-Manager-Skills/releases/latest).
 2. Download [`pm-skills-starter-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/pm-skills-starter-pack.zip), or choose a different pack from the table below.
-3. Open Claude.
-4. Go to `Settings -> Capabilities -> Skills`.
-5. Upload the ZIP.
-6. Start a new chat and ask Claude to use the Product Manager Skills.
+3. Unzip the pack on your computer.
+4. Open Claude.
+5. Go to `Settings -> Capabilities -> Skills`.
+6. Upload the individual skill ZIPs inside the pack.
+7. Start a new chat and ask Claude to use the Product Manager Skills.
 
 Try:
 
@@ -37,6 +38,7 @@ Use the Product Manager Skills. Ask me the minimum useful questions, then help m
 ## Notes
 
 - Start with the starter pack unless you know you need a specific pack.
+- Do not upload the outer pack ZIP to Claude. Unzip the pack first, then upload the skill ZIPs inside it.
 - Use one practical problem from your work. These skills are strongest with real context.
 - Claude Code users should usually use the plugin marketplace instead of these ZIPs. See [`INSTALL-CLAUDE-CODE.md`](INSTALL-CLAUDE-CODE.md).
 - Codex users should use the Codex ZIP or clone the repo. See [`INSTALL-CODEX.md`](INSTALL-CODEX.md).

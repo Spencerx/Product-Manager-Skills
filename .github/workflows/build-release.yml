@@ -35,6 +35,7 @@ jobs:
           path: |
             dist/Product-Manager-Skills-*-release.zip
             dist/claude-desktop/*.zip
+            dist/skill-zips/*.zip
             dist/codex/*.zip
           if-no-files-found: error
 
@@ -45,6 +46,7 @@ jobs:
           files: |
             dist/Product-Manager-Skills-*-release.zip
             dist/claude-desktop/*.zip
+            dist/skill-zips/*.zip
             dist/codex/*.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
